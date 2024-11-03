@@ -11,8 +11,6 @@ This project issues NFTs as symbolic digital assets representing preservation ce
 
 This document provides a step-by-step guide to setting up, uploading metadata, and minting NFTs on the Vottun and Arbitrum networks.
 
----
-
 ## Project Concept
 ### NFTs:
 The project issues NFTs to voluntary reserve owners. These are landowners who either purchased land to protect it or decided to protect land they already own. After verification, landowners joining our network receive an NFT that certifies the preservation of their land, including its specific characteristics. This certificate also grants access to the **Protectors of the Forest DAO**.
@@ -25,9 +23,9 @@ While tokens may be symbolic and gain liquidity over time, the primary strategy 
 
 
 
-## Step-by-Step Guide
+## NFT creation on Arbitrum
 
-### 1. Token Configuration
+### 1. ERC721 Token Configuration
 
 The token configuration defines basic details such as the token’s name, symbol, network, and gas limits. This configuration initializes the NFT contract on the Arbitrum network.
 
