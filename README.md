@@ -1,7 +1,7 @@
 
 # Web3 Women Hackathon - Preserving Lands Through NFTs on Vottun and Arbitrum
 
-This project issues NFTs as symbolic digital assets to recognize donations towards land preservation. Each NFT uniquely represents a preserved plot of land, combining physical and digital realms. Ownership of the physical lands is transferred to Indigenous and Quilombola communities, while donors receive NFTs on the blockchain as a record of their contribution and impact.
+This project issues NFTs as symbolic digital assets representing preservation certificates for landowners who commit to protecting their properties. Each NFT is unique and reflects the specific characteristics of the protected land, promoting land preservation through a digital record on the blockchain. The project also uses tokens that allow for direct investments in the preserved lands, encouraging the development of sustainable infrastructure.
 
 ## Overview
 
@@ -12,6 +12,18 @@ This project issues NFTs as symbolic digital assets to recognize donations towar
 This document provides a step-by-step guide to setting up, uploading metadata, and minting NFTs on the Vottun and Arbitrum networks.
 
 ---
+
+## Project Concept
+### NFTs:
+The project issues NFTs to voluntary reserve owners. These are landowners who either purchased land to protect it or decided to protect land they already own. After verification, landowners joining our network receive an NFT that certifies the preservation of their land, including its specific characteristics. This certificate also grants access to the **Protectors of the Forest DAO**.
+
+### Tokens:
+Tokens enable investment in the lands—each property will have its own business model. For example, in the case of Marcela's land, which is the first in the network, investments will fund fencing the area and constructing a lodging center for artistic immersion experiences.
+
+### Real Business Model:
+While tokens may be symbolic and gain liquidity over time, the primary strategy is to form partnerships with DeFi companies or DAOs. These entities can issue specific tokens to sell to their clients or create other types of partnerships that generate revenue for these preservation areas.
+
+
 
 ## Step-by-Step Guide
 
