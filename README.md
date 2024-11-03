@@ -31,6 +31,9 @@ While tokens may be symbolic and gain liquidity over time, the primary strategy 
 
 The token configuration defines basic details such as the token’s name, symbol, network, and gas limits. This configuration initializes the NFT contract on the Arbitrum network.
 
+``` 
+POST https://api.vottun.tech/erc/v1/erc721/deploy
+```
 #### JSON Configuration:
 
 ```json
@@ -54,6 +57,10 @@ After deployment, a response is returned with the contract address and transacti
 ### 2. Uploading the NFT File to IPFS
 Each NFT requires a unique image or digital file, representing the preserved land, which is uploaded to IPFS (InterPlanetary File System) to ensure decentralized storage and access.
 
+``` 
+POST https://ipfsapi-v2.vottun.tech/ipfs/v2/file/upload
+```
+
 #### IPFS File Response:
 ```json
 {
@@ -65,6 +72,10 @@ This hash URL will serve as the image link in the metadata.
 
 ### 3. Metadata Definition for the NFT
 The metadata associated with the NFT contains descriptive and specific information about the land, such as its registration number, area size, and conservation status. This data is essential for both the symbolic and practical aspects of the asset.
+
+``` 
+POST https://ipfsapi-v2.vottun.tech/ipfs/v2/file/metadata
+```
 
 ```json
 {
@@ -115,6 +126,10 @@ The metadata associated with the NFT contains descriptive and specific informati
 ```
 ### 4. Minting the NFT
 The minting process finalizes the creation of the NFT on the blockchain. It involves specifying the recipient's wallet address, token ID, IPFS URI, network, contract address, royalty percentage, and gas limit. The royalty percentage rewards the NFT creator for secondary sales, encouraging continued support for land preservation.
+
+``` 
+POST https://api.vottun.tech/erc/v1/erc721/mint
+```
 
 ```json
 {
