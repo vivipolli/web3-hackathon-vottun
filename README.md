@@ -23,7 +23,7 @@ While tokens may be symbolic and gain liquidity over time, the primary strategy 
 
 
 
-## NFT creation on Arbitrum
+## NFT creation on Vottun
 
 ### 1. ERC721 Token Configuration
 
